@@ -1,0 +1,27 @@
+{
+    "name": "fathom/leetcode",
+    "description": "Leetcode Exercises",
+    "type": "project",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "roave/security-advisories": "dev-latest"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fathom\\Leetcode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Zmeischev",
+            "email": "fathom.ru@gmail.com"
+        }
+    ]
+}
