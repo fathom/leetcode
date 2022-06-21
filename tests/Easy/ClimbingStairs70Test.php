@@ -44,6 +44,8 @@ class ClimbingStairs70Test extends TestCase
         return [
             [2, 2],
             [3, 3],
+            [5, 8],
+            [10, 89],
         ];
     }
 }

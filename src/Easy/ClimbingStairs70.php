@@ -12,6 +12,8 @@ namespace Fathom\Leetcode\Easy;
 
 class ClimbingStairs70
 {
+    static private array $cache = [];
+
     public static function climbStairs(int $n): int
     {
         if ($n <= 1) {
@@ -55,6 +57,10 @@ class ClimbingStairs70
             return 1;
         }
 
-        return self::climbStairs4($n - 1) + self::climbStairs4($n - 2);
+        if (!isset($cache[$n])) {
+            self::$cache[$n] = self::climbStairs4($n - 1) + self::climbStairs4($n - 2);
+        }
+
+        return self::$cache[$n];
     }
 }
