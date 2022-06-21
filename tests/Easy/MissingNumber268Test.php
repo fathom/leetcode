@@ -10,9 +10,17 @@ class MissingNumber268Test extends TestCase
     /**
      * @dataProvider dataProvider
      */
-    public function testContainsDuplicate(array $nums, int $expected): void
+    public function testMissingNumber(array $nums, int $expected): void
     {
         self::assertSame($expected, MissingNumber268::missingNumber($nums));
+    }
+
+    /**
+     * @dataProvider dataProvider
+     */
+    public function testMissingNumber2(array $nums, int $expected): void
+    {
+        self::assertSame($expected, MissingNumber268::missingNumber2($nums));
     }
 
     public function dataProvider(): array

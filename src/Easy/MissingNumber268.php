@@ -11,10 +11,6 @@ Given an array nums containing n distinct numbers in the range [0, n], return th
 
 final class MissingNumber268
 {
-    /**
-     * @dataProvider dataProvider
-     */
-
     public static function missingNumber(array $nums): int
     {
         $res = 0;
@@ -24,12 +20,12 @@ final class MissingNumber268
         return $res;
     }
 
-    public function dataProvider(): array
-    {
-        return [
-            [[1,2,3,1], true],
-            [[1,2,3,4], false],
-            [[1,1,1,3,3,4,3,2,4,2], true],
-        ];
+    public static function missingNumber2(array $nums): int {
+        $n = count($nums);
+        $sum = 0;
+        foreach ($nums as $v) {
+            $sum += $v;
+        }
+        return (int) (0.5 * $n * ($n + 1) - $sum);
     }
 }
