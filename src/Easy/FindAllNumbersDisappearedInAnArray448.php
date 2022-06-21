@@ -11,7 +11,7 @@ namespace Fathom\Leetcode\Easy;
  * the integers in the range [1, n] that do not appear in nums.
  */
 
-class FindAllNumbersDisappearedInAnArray448
+final class FindAllNumbersDisappearedInAnArray448
 {
     public static function findDisappearedNumbers(array $nums) : array
     {
