@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests;
+namespace Tests\Easy;
 
-use Fathom\Leetcode\ContainsDuplicate217;
+use Fathom\Leetcode\Easy\ContainsDuplicate217;
 use PHPUnit\Framework\TestCase;
 
 class ContainsDuplicate217Test extends TestCase

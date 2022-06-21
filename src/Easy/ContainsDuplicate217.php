@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Fathom\Leetcode;
+namespace Fathom\Leetcode\Easy;
 
 /*
 https://leetcode.com/problems/contains-duplicate/

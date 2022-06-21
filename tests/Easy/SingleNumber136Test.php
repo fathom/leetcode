@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests;
+namespace Tests\Easy;
 
-use Fathom\Leetcode\SingleNumber136;
+use Fathom\Leetcode\Easy\SingleNumber136;
 use PHPUnit\Framework\TestCase;
 
 final class SingleNumber136Test extends TestCase
