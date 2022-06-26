@@ -7,6 +7,7 @@
 - [448. Find All Numbers Disappeared in an Array](./src/Easy/FindAllNumbersDisappearedInAnArray448.php) (Arrays)
 - [136. Single Number](./src/Easy/SingleNumber136.php) (Arrays, Bit Manipulation)
 - [70. Climbing Stairs](./src/Easy/ClimbingStairs70.php) (Math, Dynamic Programming, Memoization)
+- [704. Binary Search](./src/Easy/BinarySearch704.php) (Arrays, Binary Search)
 
 ## License
 
