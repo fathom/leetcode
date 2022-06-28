@@ -8,6 +8,8 @@
 - [136. Single Number](./src/Easy/SingleNumber136.php) (Arrays, Bit Manipulation)
 - [70. Climbing Stairs](./src/Easy/ClimbingStairs70.php) (Math, Dynamic Programming, Memoization)
 - [704. Binary Search](./src/Easy/BinarySearch704.php) (Arrays, Binary Search)
+- [912. Sort An Array](./src/Easy/SortAnArray912.php) 
+- [Count Pairs With Given Sum](./src/Easy/CountPairsWithGivenSum.php) 
 
 ## License
 
