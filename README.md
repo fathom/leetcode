@@ -10,6 +10,7 @@
 - [704. Binary Search](./src/Easy/BinarySearch704.php) (Arrays, Binary Search)
 - [912. Sort An Array](./src/Easy/SortAnArray912.php) 
 - [Count Pairs With Given Sum](./src/Easy/CountPairsWithGivenSum.php) 
+- [121. Best Time to Buy and Sell Stock](./src/Easy/BestTimeToBuyAndSellStock121.php)
 
 ## License
 
