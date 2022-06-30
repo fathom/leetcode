@@ -11,6 +11,7 @@
 - [912. Sort An Array](./src/Easy/SortAnArray912.php) 
 - [Count Pairs With Given Sum](./src/Easy/CountPairsWithGivenSum.php) 
 - [121. Best Time to Buy and Sell Stock](./src/Easy/BestTimeToBuyAndSellStock121.php)
+- [53. Maximum Subarray](./src/Easy/MaximumSubarray53.php)
 
 ## License
 
